@@ -1,2 +1,3 @@
 1. grep ^Z cities.txt
-2. grep -i 'gan\>' cities.txt
+2. grep -i gan\> cities.txt
+3. grep  ^[A,D,E] cities.txt
