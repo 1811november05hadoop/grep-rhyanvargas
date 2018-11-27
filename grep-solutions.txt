@@ -1,0 +1,2 @@
+1. grep ^Z cities.txt
+2. grep -i 'gan\>' cities.txt
