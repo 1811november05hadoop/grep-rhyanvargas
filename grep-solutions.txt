@@ -1,8 +1,10 @@
 1. grep ^Z cities.txt
 2. grep -i gan\> cities.txt
 3. grep  [ADE] cities.txt
-4. 
+4. grep '\<.ar'
 5. grep ^[^C] cities.txt
-6.
+6. grep -v '[ ]' | egrep '.{14,}'
 7. grep ^B cities.txt
-8. 
+8. grep -E -o 'd' | wc
+9. grep -E '(.)\1{1}$'
+10. grep -E -iw '^(.)(.).\2'
